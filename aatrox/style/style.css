@@ -14,11 +14,17 @@
 body{
     background-image: url("/img/aatrox-bg.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     overflow: hidden;
 }
 
 header{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 25px 48px;
+}
+
+header .logo{
+    width: 150px;
 }
