@@ -132,3 +132,15 @@ main section .text{
     width: 1.4em;
     filter: invert(1);
 }
+
+@media (width >= 500px){
+    header{
+        padding: 15px 3%;
+    }
+}
+
+@media (width >= 500){
+    section{
+        padding: 0 12%;
+    }
+}
