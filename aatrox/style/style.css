@@ -12,7 +12,7 @@
 }
 
 body{
-    background-image: url("/img/aatrox-bg.jpg");
+    background-image: url("../img/aatrox-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
