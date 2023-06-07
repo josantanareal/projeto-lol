@@ -45,7 +45,7 @@ header .logo{
 }
 
 .navigation ul li a:hover{
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid white;
 }
 
 .navigation .pesquisa{
@@ -57,5 +57,78 @@ header .logo{
 .navigation .perfil{
     width: 35px;
     cursor: pointer;
+    filter: invert(1);
+}
+
+/* main */
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 60em;
+    margin-top: 1.5em;
+}
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2.5em;
+}
+
+main section .logo-aatrox{
+    width: 50em;
+    margin: 3em 0;
+}
+
+main section .btn-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-box .btn{
+    padding: 20px 45px;
+    background-color: rgb(19, 26, 23);
+    color: white;
+    margin-bottom: 2em;
+    border-bottom: 2px solid white;
+    border-radius: 5px 5px 0 0;
+    transition: all .3s;
+}
+
+.btn-box .btn:hover{
+    background-color: rgb(54, 54, 54);
+}
+
+.btn-box .btn:focus{
+    background-color: rgb(54, 54, 54);
+}
+
+main section .text{
+    color: white;
+    line-height: 22px;
+}
+
+.btn-box2{
+    display: flex;
+    align-items: center;
+    color: white;
+    background: rgb(19, 26, 23);
+    padding: 15px 45px;
+    margin-top: 2em;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 4px solid white;
+    font-size: 25px;
+    gap: 40px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.btn-box2:hover{
+    background-color: rgb(54, 54, 54);
+}
+
+.btn-box2 .play{
+    width: 1.4em;
     filter: invert(1);
 }
